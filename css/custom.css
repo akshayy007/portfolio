@@ -1,4 +1,4 @@
-/* your styles go here */
+
 
 /* general css */
 html {
@@ -36,6 +36,7 @@ section {
 }
 
 
+
 .container {
 	padding-top: 90px;
     padding-right: 75px;
@@ -52,6 +53,9 @@ section {
     margin-right: auto;
     margin-left: auto;
   }
+
+
+
 
 
   h1.heading {
@@ -476,3 +480,91 @@ h2,.h2 {
     transform: translateX(-10px);
   }
 }
+
+
+
+
+@media (max-width: 575.99px) { 
+  .pad_tweaks {
+    padding-top: 0px;
+
+}
+}
+
+/* padding for aligning project title with image */
+
+@media (max-width: 767.99px) {
+ .pad_tweaks {
+    padding-top: 0px;
+
+}
+}
+
+
+@media (min-width: 992px) { 
+ .pad_tweaks {
+    padding-top: 60px;
+
+}
+}
+
+@media (min-width: 1200px) { 
+ .pad_tweaks {
+    padding-top: 80px;
+
+}
+}
+
+@media (min-width: 1400px) { 
+ .pad_tweaks {
+    padding-top: 100px;
+
+}
+}
+
+@media (min-width: 1920px) { 
+ .pad_tweaks {
+    padding-top: 100px;
+
+}
+}
+
+
+/* spacing between projects */
+
+@media (max-width: 767.99px) {
+ .spacing {
+    padding-top: 50px;
+
+}
+}
+
+
+@media (min-width: 992px) { 
+ .spacing {
+    padding-top: 60px;
+
+}
+}
+
+@media (min-width: 1200px) { 
+ .spacing {
+    padding-top: 80px;
+
+}
+}
+
+@media (min-width: 1400px) { 
+ .spacing {
+    padding-top: 200px;
+
+}
+}
+
+@media (min-width: 1920px) { 
+ .spacing {
+    padding-top: 150px;
+
+}
+}
+
