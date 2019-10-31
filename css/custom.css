@@ -307,7 +307,7 @@ ul.nav a:hover {
 
 @media (max-width: 600px) {
   .navbar-brand {
-    display: none;
+    
   }
 }
 

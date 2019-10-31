@@ -277,10 +277,17 @@ section {
 
 button:focus {outline:0;}
 
-
 /* -----------hamburger --------*/
 
-@media (max-width: 600px) {
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
 
 
 .c-hamburger {
@@ -288,7 +295,7 @@ button:focus {outline:0;}
   position: relative;
   overflow: hidden;
   margin: 0;
-  padding: 0;
+  padding-bottom: 10px;
   width: 60px;
   height: 60px;
   font-size: 0;
@@ -308,7 +315,7 @@ button:focus {outline:0;}
 .c-hamburger span {
   display: block;
   position: absolute;
-  top: 44px;
+  top: 22px;
   left: 18px;
   right: 18px;
   height: 2px;
@@ -388,19 +395,6 @@ button:focus {outline:0;}
 /* ---------------end of ham --------*/
 
 
-
-
-/* ---------------navbar --------*/
-
-
-.gap {
-  height: 40px;
-  background-color: transparent;
-  padding: 0px;
-}
-
-
-
 .icon-bar {
    background-color:#232323 !important;
 }
@@ -412,24 +406,27 @@ button:focus {outline:0;}
 }
 
 
-
-
 .navbar {
 
   background-color: rgba(255, 255, 255, 0.9);
   border: none;
   font-size: 20px;
   font-family: "Montserrat";
-  color: #000;
+  color: rgba(35, 35, 35, 0.6);
   font-weight: bold;
   line-height: 1.2;
-  
 
+}
+
+
+.navbar-brand:hover {
+  color: #232323;
 }
 
 .nav-up {
     top: -90px;
 }
+
 
 .navbar-brand {
 
@@ -442,6 +439,7 @@ color: #232323;
   font-family: "Montserrat";
   color: #000;
   font-weight: 400;
+  
 }
 
 @media (max-width: 600px) {
@@ -456,10 +454,14 @@ background-color: #346;
 
 
 ul.nav a:hover { 
-  color: #555 !important;
+  color: #232323 !important;
   background-color: transparent !important;
  }
 
+ ul.nav a:focus { 
+  color: #232323 !important;
+  background-color: transparent !important;
+ }
 
 @media (min-width: 1200px) {
   .navbar-brand {
@@ -470,7 +472,7 @@ ul.nav a:hover {
 
 @media (max-width: 600px) {
   .navbar-brand {
-    display: none;
+    
   }
 }
 
