@@ -3,21 +3,24 @@
 /* general css */
 
 a:link {
-  color: rgba(35, 35, 35, 0.6);
-  text-decoration: none;
+  color: rgba(35, 35, 35, 0.6) !important;
+  text-decoration: none !important;
 }
 
 a:hover {
-  color: #232323;
+  color: #232323 !important;
 }
 
 
 html {
   height: 100%;
+  
 }
+
 body {
   height: 100%;
   font-weight: 300;
+  overflow-x: hidden;
 }
 header {
   z-index: 1000;
@@ -40,11 +43,12 @@ section {
 }
 
 .container {
-	padding-top: 65px;
+  padding-top: 65px;
     padding-right: 75px;
     padding-left: 75px;
     margin-right: auto;
     margin-left: auto;
+   
 }
 
 
@@ -107,11 +111,11 @@ section {
 
 
 
-
+/* n--------------------header container --------------------  */
 
 
 #intro {
-  background-image: url("../img/header2.jpg");
+  background-image: url("../img/project365_header@3x.jpg");
   display: block;
   padding-top: 90px;
   padding-bottom: 140px;
@@ -119,20 +123,39 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 
 }
 
+
+@media (max-width: 2560px) {
+#intro {
+  background-image: url("../img/project365_header@3x.jpg");
+  display: block;
+  padding-top: 380px;
+  padding-bottom: 380px;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+}
+
+
 @media (max-width: 1920px) {
 #intro {
-  background-image: url("../img/header2.jpg");
+  background-image: url("../img/project365_header@3x.jpg");
   display: block;
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 36vh;
+  padding-bottom: 36vh;
    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    transform: translateZ(-1px) scaleY(1.1);
+    transform: translateZ(-1px) scaleY(1.1) scaleX(1.1);
+    overflow-x: hidden;
+    overflow-y: auto;
 
 
 }
@@ -140,10 +163,10 @@ section {
 
 @media (max-width: 1400px) {
 #intro {
-  background-image: url("../img/header2.jpg");
+  background-image: url("../img/project365_header@3x.jpg");
   display: block;
-  padding-top: 90px;
-  padding-bottom: 160px;
+  padding-top: 36vh;
+  padding-bottom: 36vh;
    
     background-position: center;
     background-repeat: no-repeat;
@@ -154,18 +177,84 @@ section {
 
 
 @media (max-width: 600px) {
+
+
+
 #intro {
-  background-image: url("../img/header2.jpg");
+  background-image: url("../img/project365_header@1x.jpg");
   display: block;
-  padding-top: 30px;
-  padding-bottom: 110px;
+  padding-top: 12vh;
+  padding-bottom: 44vh;
    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden !important;
 
 }
 }
+
+
+
+@media (max-width: 1920px) {
+.header_container {
+  padding-top: 0px;
+    padding-right: 500px;
+    padding-left: 500px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+}
+
+@media (max-width: 1600px) {
+.header_container {
+  padding-top: 0px;
+    padding-right: 320px;
+    padding-left: 320px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+}
+
+
+@media (max-width: 1400px) {
+.header_container {
+  padding-top: 0px;
+    padding-right: 280px;
+    padding-left: 280px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+}
+
+@media (max-width: 1200px) {
+.header_container {
+  padding-top: 0px;
+    padding-right: 180px;
+    padding-left: 180px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+}
+
+
+@media (max-width: 600px) {
+.header_container {
+  padding-top: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+}
+
+
+/* n--------------------header container ends --------------------  */
 
 
 /* css for paragraphs container for different devices
@@ -484,6 +573,7 @@ ul.nav a:hover {
     margin-left: auto;
 }
 
+
 /*
 
 =====================
@@ -495,7 +585,7 @@ INTRO
 
 @media (max-width: 1920px) {
   .text-intro h1 {
-    font-size: 90px;
+    font-size: 74px;
   }
 }
 
@@ -520,13 +610,37 @@ INTRO
   }
 }
 
+@media (max-width: 1920px) {
+h4,.h4 {
+  font-size: 24px;
+  font-family: "Montserrat";
+  color: #FFF;
+  font-weight: regular;
+  line-height: 1.2;
+  text-align: center;
+  
+}
+}
+
+@media (max-width: 600px) {
+ h4,.h4 {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: #FFF;
+  font-weight: regular;
+  line-height: 1.2;
+  text-align: left;
+  
+}
+}
+
 .intro_text {
   font-size: 48px;
   font-family: "Montserrat";
   color: #FFF;
   font-weight: 800;
   line-height: 1.2;
-  text-align: center;
+  text-align: left;
   
 }
 
@@ -675,7 +789,7 @@ input[type=checkbox]:checked ~ label > img {
 h3,.h3 {
   font-size: 20px;
   font-family: "Montserrat";
-  color: rgb(63, 63, 63);
+  color: #232323;
   font-weight: bold;
   line-height: 1.2;
   text-align: left;
@@ -689,7 +803,7 @@ h3,.h3 {
 h3,.h3 {
   font-size: 20px;
   font-family: "Montserrat";
-  color: rgb(63, 63, 63);
+  color: #232323;
   font-weight: bold;
   line-height: 1.2;
   text-align: left;
@@ -701,22 +815,11 @@ h3,.h3 {
 
 
 
-h4,.h4 {
-  font-size: 24px;
-  font-family: "Montserrat";
-  color: #FFF;
-  font-weight: regular;
-  line-height: 1.2;
-  text-align: center;
-  
-}
-
-
 
 h2,.h2 {
   font-size: 36px;
   font-family: "Montserrat";
-  color: rgb(63, 63, 63);
+  color: #232323;
   font-weight: bold;
   line-height: 1.2;
   text-align: left;
@@ -727,7 +830,7 @@ h2,.h2 {
 p, .p {
   font-size: 16px;
   font-family: "Montserrat";
-  color: rgb(63, 63, 63);
+  color: #3f3f3f;
   font-weight: 400;
   line-height: 1.8em;
   text-align: left;
@@ -739,7 +842,7 @@ p, .p {
 p, .p {
   font-size: 14px;
   font-family: "Montserrat";
-  color: rgb(63, 63, 63);
+  color: #3f3f3f;
   font-weight: 400;
   line-height: 1.8em;
   text-align: left;
@@ -752,7 +855,7 @@ p, .p {
 h5,.h5 {
   font-size: 100px;
   font-family: "Montserrat";
-  color: rgb(63, 63, 63);
+  color: #232323;
   font-weight: 800;
   line-height: 1.2;
   text-align: left;
@@ -765,7 +868,7 @@ h5,.h5 {
 h5,.h5 {
   font-size: 75px;
   font-family: "Montserrat";
-  color: rgb(63, 63, 63);
+  color: #232323;
   font-weight: 800;
   line-height: 1.2;
   text-align: left;
@@ -779,7 +882,7 @@ h5,.h5 {
 h5,.h5 {
   font-size: 50px;
   font-family: "Montserrat";
-  color: rgb(63, 63, 63);
+  color: #232323;
   font-weight: 800;
   line-height: 1.2;
   text-align: left;
@@ -792,7 +895,7 @@ h5,.h5 {
 li, .li {
   font-size: 16px;
   font-family: "Montserrat";
-  color: rgb(63, 63, 63);
+  color: #232323;
   font-weight: 400;
   line-height: 1.8em;
   text-align: left;
@@ -804,7 +907,7 @@ li, .li {
 li, .li {
   font-size: 14px;
   font-family: "Montserrat";
-  color: rgb(63, 63, 63);
+  color: #232323;
   font-weight: 400;
   line-height: 1.8em;
   text-align: left;
@@ -908,7 +1011,7 @@ li, .li {
 */
 
 .bounce_btn {
-	display: inline-block;
+  display: inline-block;
   
 }
 
@@ -917,8 +1020,8 @@ li, .li {
 }
 
 .button_p:hover .bounce_btn {
-	display: inline-block;
-	-moz-animation: bounce_btn 2s infinite;
+  display: inline-block;
+  -moz-animation: bounce_btn 2s infinite;
   -webkit-animation: bounce_btn 2s infinite;
   animation: bounce_btn 2s infinite;
 
@@ -1029,7 +1132,7 @@ FOOTER
   color: rgba(63, 63, 63, 0.6);
   font-weight: 400;
   line-height: 1.5;
-
+ 
   
 }
 
@@ -1069,4 +1172,3 @@ FOOTER
 }
 
 }
-

@@ -349,7 +349,7 @@ INTRO
 .intro_text {
   font-size: 48px;
   font-family: "Montserrat";
-  color: rgb(63, 63, 63);
+  color: rgb(35, 35, 35);
   font-weight: 800;
   line-height: 1.2;
   text-align: left;
@@ -433,7 +433,7 @@ work
 h2,.h2 {
   font-size: 36px;
   font-family: "Montserrat";
-  color: rgb(63, 63, 63);
+  color: rgb(35, 35, 35);
   font-weight: bold;
   line-height: 1.2;
   text-align: left;
