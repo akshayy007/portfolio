@@ -31,7 +31,21 @@ section {
 @media (min-width: 970px){
 .gap2 {
   background-color: transparent;
-  height: 250px;
+  height: 460px;
+}
+}
+
+@media (min-width: 1200px){
+.gap2 {
+  background-color: transparent;
+  height: 420px;
+}
+}
+
+@media (min-width: 1440px){
+.gap2 {
+  background-color: transparent;
+  height: 400px;
 }
 }
 
