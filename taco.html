@@ -386,7 +386,7 @@
             <img src="img/taco/9.jpg" data-action="zoom" width="100%"> <br> <br>
             <h3>Final Prototype</h3> <br>
             <div style="--aspect-ratio: 16/9;">
-            <iframe onLoad="self.scrollTo(0,0)" src="https://xd.adobe.com/embed/11e91c34-09f9-481e-7da1-e92ee5f89414-67d8/" width="1600" height="900" frameborder="0"></iframe>
+            <iframe onload="onMyFrameLoad()" src="https://xd.adobe.com/embed/11e91c34-09f9-481e-7da1-e92ee5f89414-67d8/" width="1600" height="900" frameborder="0"></iframe>
             </div> <br>
             <p><a href="https://xd.adobe.com/view/11e91c34-09f9-481e-7da1-e92ee5f89414-67d8/?fullscreen" style="text-decoration: underline !important;">External Link for the XD prototype</a></p>
           </div>
@@ -672,6 +672,20 @@ function hasScrolled() {
     
     lastScrollTop = st;
 }
+
+
+function noscroll() {
+  window.scrollTo(0, 0);
+}
+// add listener to disable scroll
+window.addEventListener('scroll', noscroll);
+function onMyFrameLoad() {
+  setTimeout(function () {
+    // Remove the scroll disabling listener (to enable scrolling again)
+    window.removeEventListener('scroll', noscroll);
+  }, 1000);
+}
+
 
 
 </script>
