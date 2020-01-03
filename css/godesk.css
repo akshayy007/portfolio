@@ -7,6 +7,7 @@ a:link {
   text-decoration: none !important;
 }
 
+
 a:hover {
   color: #232323 !important;
 }
@@ -814,17 +815,31 @@ h3,.h3 {
 
 
 
-
-
+@media (max-width: 1920px) {
 h2,.h2 {
-  font-size: 36px;
+  font-size: 32px;
   font-family: "Montserrat";
   color: #232323;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: left;
   
 }
+}
+
+@media (max-width: 600px) {
+h2,.h2 {
+  font-size: 24px;
+  font-family: "Montserrat";
+  color: #232323;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: left;
+  
+}
+}
+
+
 
 @media (max-width: 1920px) {
 p, .p {
