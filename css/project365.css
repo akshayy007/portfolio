@@ -1,3 +1,4 @@
+/* your styles go here */
 
 /* general css */
 
@@ -5,7 +6,6 @@ a:link {
   color: rgba(35, 35, 35, 0.6) !important;
   text-decoration: none !important;
 }
-
 
 a:hover {
   color: #232323 !important;
@@ -51,14 +51,6 @@ section {
    
 }
 
-@media (min-width: 1400px) {
-  .container {
-    padding-top: 65px;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
-  }
 
 @media (max-width: 1920px) {
 .container {
@@ -136,12 +128,12 @@ section {
 }
 
 
-@media (max-width: 2860px) {
+@media (max-width: 2560px) {
 #intro {
   background-image: url("../img/project365_header@3x.jpg");
   display: block;
-  padding-top: 40vh;
-  padding-bottom: 40vh;
+  padding-top: 380px;
+  padding-bottom: 380px;
    
     background-position: center;
     background-repeat: no-repeat;
@@ -202,16 +194,7 @@ section {
 }
 }
 
-@media (max-width: 2800px) {
-.header_container {
-  padding-top: 0px;
-    padding-right: 700px;
-    padding-left: 700px;
-    margin-right: auto;
-    margin-left: auto;
 
-}
-}
 
 @media (max-width: 1920px) {
 .header_container {
@@ -296,19 +279,6 @@ section {
 
 
  */
-
-
-@media (max-width: 2800px) {
-.para_container {
-  padding-top: 0px;
-    padding-right: 700px;
-    padding-left: 700px;
-    margin-right: auto;
-    margin-left: auto;
-
-}
-}
-
 
 @media (max-width: 1920px) {
 .para_container {
@@ -640,18 +610,6 @@ INTRO
   }
 }
 
-
-@media (max-width: 2800px) {
-h4,.h4 {
-  font-size: 24px;
-  font-family: "Montserrat";
-  color: #FFF;
-  font-weight: regular;
-  line-height: 1.2;
-  text-align: center;
-  
-}
-
 @media (max-width: 1920px) {
 h4,.h4 {
   font-size: 24px;
@@ -759,16 +717,7 @@ input[type=checkbox]:checked ~ label > img {
 }
 
 
-@media (max-width: 2800px) {
-.img_container {
-  padding-top: 0px;
-  padding-right: 700px;
-    padding-left: 700px;
-    margin-right: auto;
-    margin-left: auto;
 
-}
-}
 
 
 
@@ -833,18 +782,7 @@ input[type=checkbox]:checked ~ label > img {
 
 /*  ----------------------------img_container  ends------------------  */
 
-@media (max-width: 2800px) {
-h3,.h3 {
-  font-size: 20px;
-  font-family: "Montserrat";
-  color: #232323;
-  font-weight: bold;
-  line-height: 1.2;
-  text-align: left;
-  padding-top: 5px;
-  
-}
-}
+
 
 
 @media (max-width: 1920px) {
@@ -874,52 +812,18 @@ h3,.h3 {
 }
 }
 
-@media (max-width: 2800px) {
+
+
+
+
 h2,.h2 {
-  font-size: 32px;
+  font-size: 36px;
   font-family: "Montserrat";
   color: #232323;
   font-weight: bold;
-  line-height: 1.5;
+  line-height: 1.2;
   text-align: left;
   
-}
-}
-
-@media (max-width: 1920px) {
-h2,.h2 {
-  font-size: 32px;
-  font-family: "Montserrat";
-  color: #232323;
-  font-weight: bold;
-  line-height: 1.5;
-  text-align: left;
-  
-}
-}
-
-@media (max-width: 600px) {
-h2,.h2 {
-  font-size: 24px;
-  font-family: "Montserrat";
-  color: #232323;
-  font-weight: bold;
-  line-height: 1.5;
-  text-align: left;
-  
-}
-}
-
-@media (max-width: 2800px) {
-p, .p {
-  font-size: 16px;
-  font-family: "Montserrat";
-  color: #3f3f3f;
-  font-weight: 400;
-  line-height: 1.8em;
-  text-align: left;
-  
-}
 }
 
 @media (max-width: 1920px) {
@@ -946,18 +850,6 @@ p, .p {
 }
 }
 
-
-@media (max-width: 2800px) {
-h5,.h5 {
-  font-size: 100px;
-  font-family: "Montserrat";
-  color: #232323;
-  font-weight: 800;
-  line-height: 1.2;
-  text-align: left;
-  color: #e5e5e5;  
-}
-}
 
 @media (max-width: 1920px) {
 h5,.h5 {
