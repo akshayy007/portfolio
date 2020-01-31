@@ -136,6 +136,25 @@ section {
 
 
 
+.gif {
+  
+  padding-top: 5%;
+
+}
+
+.solution {
+  padding-top: 24%;
+ 
+}
+
+@media (max-width: 992px) { 
+  .solution {
+    padding-top: 0px;
+
+}
+}
+
+
 
 /* n--------------------header container --------------------  */
 
@@ -842,7 +861,7 @@ h3,.h3 {
 
 @media (max-width: 1920px) {
 h2,.h2 {
-  font-size: 32px;
+  font-size: 28px;
   font-family: "Montserrat";
   color: #232323;
   font-weight: bold;
