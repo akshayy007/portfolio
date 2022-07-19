@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 13</title>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="onboarding-flow-copy-2" transform="translate(-880.000000, -510.000000)">
+            <g id="Group-13" transform="translate(880.731468, 510.979724)">
+                <rect id="Rectangle" x="0" y="0" width="72" height="72"></rect>
+                <g id="Group-10" transform="translate(1.000000, 7.500000)">
+                    <rect id="Rectangle-Copy-3" fill="#E8EFF5" x="2.9037678" y="-1.8189894e-12" width="67" height="56.5867152" rx="4"></rect>
+                    <rect id="Rectangle" stroke="#185799" x="0.5" y="0.5" width="66" height="55.5867152" rx="4"></rect>
+                    <g id="Group-9" transform="translate(33.500000, 27.793358) rotate(-90.000000) translate(-33.500000, -27.793358) translate(12.500000, 6.293358)" stroke="#185799">
+                        <path d="M0,3 L28.7490304,3 M33.9303829,3 L41.5,3" id="Shape" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M0,15.409525 L11.506359,15.409525 M16.6531428,15.409525 L41.5,15.409525" id="Shape" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M0,27.6064581 L28.709244,27.6064581 M33.7657449,27.6064581 L41.5,27.6064581" id="Shape" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M0,39.3162424 L18.3644603,39.3162424 M23.3308771,39.3162424 L41.5,39.3162424" id="Shape" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <circle id="Oval" cx="31.3979199" cy="3" r="2.5"></circle>
+                        <circle id="Oval-Copy-10" cx="14.0954718" cy="15.409525" r="2.5"></circle>
+                        <circle id="Oval-Copy-11" cx="31.3979199" cy="27.6064581" r="2.5"></circle>
+                        <circle id="Oval-Copy-12" cx="20.9023955" cy="39.3162424" r="2.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

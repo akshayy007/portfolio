@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="75px" viewBox="0 0 73 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 6</title>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="onboarding-flow-copy-2" transform="translate(-880.000000, -154.000000)">
+            <g id="Group-6" transform="translate(880.731468, 155.979724)">
+                <rect id="Rectangle" x="0" y="0" width="72" height="72"></rect>
+                <g id="Group-2" transform="translate(11.500000, 0.000000)">
+                    <rect id="Rectangle" fill="#E8EFF5" x="1.62294538" y="0.717213758" width="31.8358605" height="13.0237611" rx="2"></rect>
+                    <rect id="Rectangle" stroke="#185799" stroke-linejoin="round" x="-1.42108547e-14" y="-2.05169215e-13" width="31.8358605" height="13.0237611" rx="2"></rect>
+                    <rect id="Rectangle-Copy" fill="#E8EFF5" x="2" y="58.6848363" width="31.8358605" height="13.0237611" rx="2"></rect>
+                    <rect id="Rectangle-Copy" stroke="#185799" stroke-linejoin="round" x="-1.42108547e-14" y="58.6848363" width="31.8358605" height="13.0237611" rx="2"></rect>
+                    <polygon id="Rectangle-Copy-2" fill="#E8EFF5" transform="translate(17.917930, 35.052127) rotate(-315.000000) translate(-17.917930, -35.052127) " points="11.0525337 28.1867304 24.7833268 28.1867304 24.7833268 41.9175235 11.0525337 41.9175235"></polygon>
+                    <polygon id="Rectangle-Copy-2" stroke="#185799" stroke-linejoin="round" transform="translate(15.917930, 35.052127) rotate(-315.000000) translate(-15.917930, -35.052127) " points="9.05253365 28.1867304 22.7833268 28.1867304 22.7833268 41.9175235 9.05253365 41.9175235"></polygon>
+                    <g id="Group" transform="translate(13.747303, 15.164278)" stroke="#185799" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline id="Path-7" points="1.99617697 0 1.99617697 7.60095027 3.99276007 5.60436717"></polyline>
+                        <line x1="1.99617697" y1="7.60095027" x2="2.27813981e-13" y2="5.6337482" id="Path-8"></line>
+                    </g>
+                    <g id="Group-Copy" transform="translate(13.747303, 46.901780)" stroke="#185799" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline id="Path-7" points="1.99617697 1.80066227e-12 1.99617697 9.04803483 3.99276007 7.05145173"></polyline>
+                        <line x1="1.99617697" y1="9.04803483" x2="3.29028937e-13" y2="7.08083276" id="Path-8"></line>
+                    </g>
+                    <g id="Group-Copy-2" transform="translate(35.723209, 39.458177) rotate(-90.000000) translate(-35.723209, -39.458177) translate(30.723209, 31.958177)" stroke="#185799" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline id="Path-7" points="9.2315998 1.64514468e-12 9.2315998 12.9515105 0.977449309 12.9515105 2.97403241 10.9549274"></polyline>
+                        <line x1="2.97362628" y1="14.9187126" x2="0.977449309" y2="12.9515105" id="Path-8"></line>
+                    </g>
+                    <circle id="Oval" stroke="#185799" cx="36.625398" cy="48.3849903" r="1"></circle>
+                    <circle id="Oval-Copy" stroke="#185799" cx="41.6292625" cy="48.3849903" r="1"></circle>
+                    <circle id="Oval-Copy-2" stroke="#185799" cx="46.6331269" cy="48.3849903" r="1"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

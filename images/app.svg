@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>app</title>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-20" transform="translate(-556.000000, -1445.000000)">
+            <g id="app" transform="translate(556.334504, 1445.500000)">
+                <rect id="Rectangle" x="0.910042416" y="0.0931506849" width="71.0136986" height="71.0136986"></rect>
+                <g id="Group-11" transform="translate(16.690864, 0.600000)">
+                    <rect id="Rectangle" fill="#E8EFF5" x="1.97260274" y="1.8189894e-12" width="37.0496042" height="69.377318" rx="4"></rect>
+                    <path d="M4,1.8189894e-12 L33.0496042,1.8189894e-12 C35.2587432,1.81858359e-12 37.0496042,1.790861 37.0496042,4 L37.0496042,65.377318 C37.0496042,67.586457 35.2587432,69.377318 33.0496042,69.377318 L4,69.377318 C1.790861,69.377318 2.705415e-16,67.586457 0,65.377318 L0,4 C-2.705415e-16,1.790861 1.790861,1.81939522e-12 4,1.8189894e-12 Z" id="Path-17" stroke="#185799" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <polygon id="Path-18" stroke="#185799" stroke-linecap="round" stroke-linejoin="round" points="9.44186565 -1.81187873e-12 10.8041754 5.39344977 26.2690924 5.39344977 27.4956288 -1.8189894e-12"></polygon>
+                    <line x1="4.51274034" y1="64.4630913" x2="11.8167524" y2="64.4630913" id="Path-19" stroke="#185799" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="14.8215679" y1="64.4630913" x2="16.5499147" y2="64.4630913" id="Path-20" stroke="#185799" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

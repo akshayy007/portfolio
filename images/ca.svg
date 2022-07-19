@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="72px" viewBox="0 0 73 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 16</title>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="onboarding-flow-copy-2" transform="translate(-544.000000, -605.000000)">
+            <g id="Group-16" transform="translate(544.731468, 605.000000)">
+                <g id="bar-chart" transform="translate(2.000000, 1.000000)">
+                    <g id="Group" transform="translate(0.786873, 0.125044)">
+                        <rect id="Rectangle" fill="#E8EFF5" fill-rule="nonzero" x="2.46565591" y="37.4202568" width="12.2323081" height="25.6456522"></rect>
+                        <rect id="Rectangle" fill="#E8EFF5" fill-rule="nonzero" x="36.716348" y="26.3688412" width="12.2323081" height="36.6970677"></rect>
+                        <rect id="Rectangle" fill="#E8EFF5" fill-rule="nonzero" x="19.591002" y="11.6900141" width="12.2323081" height="51.3758948"></rect>
+                        <rect id="Rectangle" fill="#E8EFF5" fill-rule="nonzero" x="53.8415508" y="0.841995948" width="12.2323081" height="62.223913"></rect>
+                        <rect id="Rectangle" stroke="#185799" stroke-linejoin="round" fill-rule="nonzero" x="0.0190652735" y="37.4202568" width="12.2323081" height="25.6456522"></rect>
+                        <rect id="Rectangle" stroke="#185799" stroke-linejoin="round" fill-rule="nonzero" x="34.2697574" y="26.3688412" width="12.2323081" height="36.6970677"></rect>
+                        <rect id="Rectangle" stroke="#185799" stroke-linejoin="round" fill-rule="nonzero" x="17.1444113" y="11.6900141" width="12.2323081" height="51.3758948"></rect>
+                        <rect id="Rectangle" stroke="#185799" stroke-linejoin="round" fill-rule="nonzero" x="51.3949601" y="0.841995948" width="12.2323081" height="62.223913"></rect>
+                        <line x1="0.0190652735" y1="68.1501843" x2="63.6272682" y2="68.1501843" id="Path-5" stroke="#185799" stroke-linecap="round" stroke-linejoin="round"></line>
+                    </g>
+                </g>
+                <rect id="Rectangle" x="0" y="0" width="72" height="72"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
